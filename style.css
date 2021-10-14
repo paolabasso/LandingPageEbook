@@ -1,0 +1,90 @@
+/*====== RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/*==== VARIABLES ====*/
+:root {
+  /* colors */
+
+  /* fonts */
+  --title-font-size: 1.5rem;
+  --text-font-size: 1rem;
+
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'Poppins', sans-serif;
+}
+
+/*=== BASE ===*/
+
+body {
+  padding: 1.5rem;
+  font: 500 1rem var(--body-font);
+  color: white;
+  background: purple;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  font: 800 var(--title-font-size) var(--title-font);
+  -webkit-font-smoothing: antialiased;
+}
+
+body p {
+  font: 300 var(--text-font-size) var(--body-font);
+}
+
+/* layout 
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}*/
+
+.section {
+  padding: 4rem 0;
+}
+
+/* HEATHER */
+
+#header {
+  display: flex;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: orange;
+  width: 100%;
+}
+
+.logo {
+  font: 900 1.75rem var(--title-font);
+  color: purple;
+}
+
+.logo span {
+  color: white;
+}
+
+/* E-BOOK */
+
+.ebook .title {
+  text-align: center;
+}
+
+.image {
+  position: relative;
+}
+
+/* CADASTRO */
+.cadastro .text h3 {
+  font: orange;
+}
