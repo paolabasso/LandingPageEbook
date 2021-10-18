@@ -1,13 +1,7 @@
 # landingpageebook
 
-Este projeto é para a implementação de uma Landing Page para baixar e-book.
 
-<link rel="Projeto" href=".github/Projeto.png" />
+![Slide 16_9 - 1](https://user-images.githubusercontent.com/91506356/137797976-2469d9db-d66c-48b8-8877-4131e35b05df.png)
 
-Será utilizada a metodologia de Mobile First.
 
-As tecnologias envolvidas serão:
 
-HTML
-CSS
-JavaScript
