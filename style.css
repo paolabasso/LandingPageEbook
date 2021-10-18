@@ -100,7 +100,7 @@ body p {
 /* CADASTRO */
 
 #cadastro {
-  background-color: red;
+  background-color: white;
 }
 
 #cadastro .container {
@@ -108,27 +108,17 @@ body p {
   height: 560px;
   padding: 0 4rem;
   display: block;
+  width: 100%;
+  z-index: 100;
 }
 
-.text h3 {
-  font: 500 1.125rem var(--body-font);
-  text-align: center;
+#cadastro h1 {
+  font: 800 var(--title-font-size) var(--title-font);
+  color: black;
+  -webkit-font-smoothing: antialiased;
 }
 
-.container .campos {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-.campos li {
-  font: 500 1rem var(--body-font);
-}
-.campos input {
-  height: 2rem;
-  width: 17.5rem;
-  
+#cadastro label {
+  font: 300 var(--text-font-size) var(--body-font);
+  color: black;
 }
