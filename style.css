@@ -99,17 +99,15 @@ body p {
 
 /* CADASTRO */
 
-#cadastro {
-  background-color: white;
+fieldset {
+  border: 0;
 }
 
-#cadastro .container {
-  position: relative;
+#cadastro {
+  background-color: white;
   height: 560px;
-  padding: 0 4rem;
-  display: block;
-  width: 100%;
-  z-index: 100;
+  padding: 3rem 1rem;
+  justify-content: center;
 }
 
 #cadastro h1 {
@@ -118,7 +116,48 @@ body p {
   -webkit-font-smoothing: antialiased;
 }
 
+#cadastro form {
+  padding: 3rem 0;
+}
+
 #cadastro label {
   font: 300 var(--text-font-size) var(--body-font);
   color: black;
+}
+
+.campo input {
+  height: 2rem;
+  width: 17.5rem;
+}
+
+#consentimento {
+  padding: 0.5rem 0;
+}
+
+#consentimento label {
+  font: 300 0.75rem var(--body-font);
+  color: black;
+  padding: 0.5rem 0.5rem;
+  width: 260px;
+  height: 54px;
+}
+#cadastro .button {
+  background-color: purple;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  height: 3.5rem;
+  font: 700 var(--text-font-size) var(--title-font);
+}
+
+/* FOOTER */
+
+#rodape {
+  background: orange;
+  padding: 1.5rem 0;
+  height: 14rem;
+}
+#rodape p {
+  padding: 1.5rem 1.5rem;
 }

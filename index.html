@@ -26,6 +26,7 @@
         <a class="logo">ONG<span>legal</span></a>
       </nav>
     </header>
+
     <main>
       <section class="section" id="ebook">
         <div class="container grid">
@@ -58,7 +59,7 @@
         </div>
       </section>
 
-      <section class="section" id="cadastro">
+      <section id="cadastro">
         <div class="text">
           <h1>Preencha seus dados e receba o e-book em seu e-mail</h1>
         </div>
@@ -66,26 +67,47 @@
         <!-- VER A QUESTÃO DE USAR LABEL -->
         <form>
           <fieldset>
-            <div>
+            <div class="campo">
               <label>Nome:</label>
               <br />
               <input type="text" />
             </div>
-            <div>
+
+            <div class="campo">
               <label>E-mail:</label>
               <br />
               <input type="email" />
             </div>
-            <div>
+
+            <div class="campo">
               <label>Celular:</label>
               <br />
               <input type="number" />
             </div>
           </fieldset>
+
+          <!-- Preciso fazer o item quadradinho de selecionar "Concordo em receber e-mails com novidades e ter os dados acima tratados por ONG LEGAL."" -->
+          <div id="consentimento" class="baixar">
+            <input type="radio" />
+            <label for="consentimento"
+              >Concordo em receber e-mails com novidades e ter os dados acima
+              tratados por ONG LEGAL.</label
+            >
+          </div>
+          <!-- Botão que irá mandar o comando de abrir o e-book. -->
+          <a class="button" href="#"> QUERO O E-BOOK</a>
         </form>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div id="rodape">
+        <a href="#header" class="logo">ONG<span>legal</span></a>
+        <p>
+          ©2021 ONG legal. <br />
+          Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
