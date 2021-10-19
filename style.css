@@ -34,7 +34,7 @@ li {
 /*=== BASE ===*/
 
 body {
-  padding: 1.5rem;
+  padding: 1.5rem 0 0 0;
   font: 500 1rem var(--body-font);
   color: white;
   background: purple;
@@ -50,6 +50,9 @@ body p {
   font: 300 var(--text-font-size) var(--body-font);
 }
 
+.text {
+  padding: 1.5rem;
+}
 /* layout 
 .container {
   margin-left: 1.5rem;
@@ -87,14 +90,22 @@ body p {
   padding-top: 5rem;
 }
 
+#ebook a {
+  position: absolute;
+  top: 59rem;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
 #ebook .button {
   background-color: orange;
   color: purple;
   display: inline-flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 1rem;
   height: 3.5rem;
-  font: 700 var(--title-font-size) var(--title-font);
+  font: 700 1.5rem var(--title-font);
 }
 
 /* CADASTRO */
@@ -106,8 +117,8 @@ fieldset {
 #cadastro {
   background-color: white;
   height: 560px;
-  padding: 3rem 1rem;
-  justify-content: center;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
 #cadastro h1 {
@@ -117,7 +128,7 @@ fieldset {
 }
 
 #cadastro form {
-  padding: 3rem 0;
+  padding: 1rem;
 }
 
 #cadastro label {
@@ -125,7 +136,7 @@ fieldset {
   color: black;
 }
 
-.campo input {
+.campos input {
   height: 2rem;
   width: 17.5rem;
 }
@@ -141,6 +152,10 @@ fieldset {
   width: 260px;
   height: 54px;
 }
+
+label .celular {
+}
+
 #cadastro .button {
   background-color: purple;
   color: white;
@@ -158,6 +173,7 @@ fieldset {
   padding: 1.5rem 0;
   height: 14rem;
 }
+
 #rodape p {
   padding: 1.5rem 1.5rem;
 }

@@ -60,43 +60,45 @@
       </section>
 
       <section id="cadastro">
-        <div class="text">
-          <h1>Preencha seus dados e receba o e-book em seu e-mail</h1>
-        </div>
-
-        <!-- VER A QUESTÃO DE USAR LABEL -->
-        <form>
-          <fieldset>
-            <div class="campo">
-              <label>Nome:</label>
-              <br />
-              <input type="text" />
-            </div>
-
-            <div class="campo">
-              <label>E-mail:</label>
-              <br />
-              <input type="email" />
-            </div>
-
-            <div class="campo">
-              <label>Celular:</label>
-              <br />
-              <input type="number" />
-            </div>
-          </fieldset>
-
-          <!-- Preciso fazer o item quadradinho de selecionar "Concordo em receber e-mails com novidades e ter os dados acima tratados por ONG LEGAL."" -->
-          <div id="consentimento" class="baixar">
-            <input type="radio" />
-            <label for="consentimento"
-              >Concordo em receber e-mails com novidades e ter os dados acima
-              tratados por ONG LEGAL.</label
-            >
+        <div class="container">
+          <div class="text">
+            <h1>Preencha seus dados e receba o e-book em seu e-mail</h1>
           </div>
-          <!-- Botão que irá mandar o comando de abrir o e-book. -->
-          <a class="button" href="#"> QUERO O E-BOOK</a>
-        </form>
+
+          <!-- VER A QUESTÃO DE USAR LABEL -->
+          <form>
+            <fieldset>
+              <div class="campos">
+                <label class="nome">Nome:</label>
+                <br />
+                <input type="text" />
+              </div>
+
+              <div class="campos">
+                <label class="email">E-mail:</label>
+                <br />
+                <input type="email" />
+              </div>
+
+              <div class="campos">
+                <label class="celular">Celular:</label>
+                <br />
+                <input type="number" />
+              </div>
+            </fieldset>
+
+            <!-- Preciso fazer o item quadradinho de selecionar "Concordo em receber e-mails com novidades e ter os dados acima tratados por ONG LEGAL."" -->
+            <div id="consentimento" class="baixar">
+              <input type="radio" />
+              <label for="consentimento"
+                >Concordo em receber e-mails com novidades e ter os dados acima
+                tratados por ONG LEGAL.</label
+              >
+            </div>
+            <!-- Botão que irá mandar o comando de abrir o e-book. -->
+            <a class="button" href="#"> QUERO O E-BOOK</a>
+          </form>
+        </div>
       </section>
     </main>
 
