@@ -6,10 +6,10 @@
   box-sizing: border-box;
 }
 
-img {
+/*img {
   width: 100%;
   height: auto;
-}
+}*/
 
 a {
   text-decoration: none;
@@ -80,30 +80,28 @@ body p {
 
 /* E-BOOK */
 #ebook {
-  padding: 5rem 0;
+  padding: 5rem 0 3rem 0;
 }
 
-.image {
-  position: relative;
+img {
+  width: 100%;
+  height: auto;
 }
 
-.image a {
-  position: absolute;
-  top: 25rem;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+.ebook {
+  padding: 0 2rem;
 }
 
-#ebook .button {
+.ebook .button {
   background-color: orange;
   color: purple;
   display: inline-flex;
   align-items: center;
   padding: 0 2rem;
   height: 3.5rem;
-  font: 900 var(---main-font);
-  font-weight: bold;
+  font: 900 1.5rem var(--main-font);
+  display: flex;
+  justify-content: center;
 }
 
 /* CADASTRO */
