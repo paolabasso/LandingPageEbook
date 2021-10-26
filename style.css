@@ -26,38 +26,31 @@ li {
   /* fonts */
   --title-font-size: 1.5rem;
   --text-font-size: 1rem;
-
-  --title-font: 'Poppins', sans-serif;
-  --body-font: 'Poppins', sans-serif;
+  --main-font: 'Poppins', sans-serif;
 }
 
 /*=== BASE ===*/
 
 body {
   padding: 1.5rem 0 0 0;
-  font: 500 1rem var(--body-font);
+  font: 500 1rem var(--main-font);
   color: white;
   background: purple;
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
-  font: 800 var(--title-font-size) var(--title-font);
+  font: 800 var(--title-font-size) var(--main-font);
   -webkit-font-smoothing: antialiased;
 }
 
 body p {
-  font: 300 var(--text-font-size) var(--body-font);
+  font: 300 var(--text-font-size) var(--main-font);
 }
 
 .text {
   padding: 1.5rem;
 }
-/* layout 
-.container {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}*/
 
 .section {
   padding: 4rem 0;
@@ -76,7 +69,7 @@ body p {
 }
 
 .logo {
-  font: 900 2rem var(--title-font);
+  font: 900 2rem var(--main-font);
   color: purple;
   padding-left: 1.5rem;
 }
@@ -87,12 +80,16 @@ body p {
 
 /* E-BOOK */
 #ebook {
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
 
-#ebook a {
+.image {
+  position: relative;
+}
+
+.image a {
   position: absolute;
-  top: 59rem;
+  top: 25rem;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
@@ -103,9 +100,10 @@ body p {
   color: purple;
   display: inline-flex;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   height: 3.5rem;
-  font: 700 1.5rem var(--title-font);
+  font: 900 var(---main-font);
+  font-weight: bold;
 }
 
 /* CADASTRO */
@@ -116,15 +114,15 @@ fieldset {
 
 #cadastro {
   background-color: white;
-  height: 560px;
+  height: 38rem;
   padding: 2rem 1rem;
-  text-align: center;
 }
 
 #cadastro h1 {
-  font: 800 var(--title-font-size) var(--title-font);
+  font: 800 var(--title-font-size) var(--main-font);
   color: black;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
 }
 
 #cadastro form {
@@ -132,28 +130,34 @@ fieldset {
 }
 
 #cadastro label {
-  font: 300 var(--text-font-size) var(--body-font);
+  font: 300 var(--text-font-size) var(---main-font);
   color: black;
+}
+.campos {
+  padding: 0.5rem;
 }
 
 .campos input {
   height: 2rem;
-  width: 17.5rem;
+  width: 18.5rem;
 }
 
 #consentimento {
-  padding: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#consentimento input {
+  height: 1.5rem;
 }
 
 #consentimento label {
-  font: 300 0.75rem var(--body-font);
+  font: 300 0.75rem var(--main-font);
   color: black;
-  padding: 0.5rem 0.5rem;
-  width: 260px;
-  height: 54px;
-}
-
-label .celular {
+  width: 18.5rem;
+  height: 3.5rem;
+  text-align: justify;
 }
 
 #cadastro .button {
@@ -163,7 +167,9 @@ label .celular {
   align-items: center;
   padding: 0 2rem;
   height: 3.5rem;
-  font: 700 var(--text-font-size) var(--title-font);
+  font: 700 var(--text-font-size) var(---main-font);
+  display: flex;
+  justify-content: center;
 }
 
 /* FOOTER */
