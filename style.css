@@ -111,9 +111,10 @@ fieldset {
 }
 
 #cadastro {
+  margin: 0;
   background-color: white;
   height: 38rem;
-  padding: 2rem 1rem;
+  padding: 2rem 2rem;
 }
 
 #cadastro h1 {
