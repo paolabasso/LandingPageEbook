@@ -124,16 +124,12 @@ fieldset {
   text-align: center;
 }
 
-#cadastro form {
-  padding: 1rem;
-}
-
 #cadastro label {
   font: 300 var(--text-font-size) var(---main-font);
   color: black;
 }
 .campos {
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .campos input {
