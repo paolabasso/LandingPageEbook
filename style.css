@@ -135,6 +135,8 @@ fieldset {
 .campos input {
   height: 2rem;
   width: 100%;
+  background: orange;
+  border: none;
 }
 
 #consentimento {
