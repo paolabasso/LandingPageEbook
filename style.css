@@ -96,7 +96,7 @@ img {
   background-color: orange;
   color: purple;
   align-items: center;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   height: auto;
   font: 900 1.5rem var(--main-font);
   display: flex;
@@ -177,4 +177,16 @@ fieldset {
 
 #rodape p {
   padding: 1.5rem 1.5rem;
+}
+
+#rodape .social {
+  padding: 0 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: left;
+}
+
+i {
+  color: white;
+  font-size: 1.5rem;
 }
