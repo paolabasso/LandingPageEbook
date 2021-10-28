@@ -95,13 +95,13 @@ img {
 .ebook .button {
   background-color: orange;
   color: purple;
-  display: inline-flex;
   align-items: center;
   padding: 0 2rem;
-  height: 3.5rem;
+  height: auto;
   font: 900 1.5rem var(--main-font);
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 /* CADASTRO */
@@ -134,7 +134,7 @@ fieldset {
 
 .campos input {
   height: 2rem;
-  width: 18.5rem;
+  width: 100%;
 }
 
 #consentimento {
