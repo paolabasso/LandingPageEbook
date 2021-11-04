@@ -66,6 +66,11 @@ body p {
   background-color: orange;
   width: 100%;
   padding: 1rem;
+  display: flex;
+}
+
+#header .social {
+  visibility: hidden;
 }
 
 .logo {
@@ -128,6 +133,7 @@ fieldset {
   font: 300 var(--text-font-size) var(---main-font);
   color: black;
 }
+
 .campos {
   padding: 0.5rem 0;
 }
@@ -152,7 +158,7 @@ fieldset {
 #consentimento label {
   font: 300 0.75rem var(--main-font);
   color: black;
-  width: 18.5rem;
+  width: 100%;
   height: 3.5rem;
   text-align: justify;
 }
@@ -195,25 +201,55 @@ i {
 /*========== Media Queries ================*/
 @media (min-width: 992px) {
   main {
-    height: auto;
+    height: 100%;
     display: flex;
   }
 
+  #header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+    font: 900 3rem var(--main-font);
+  }
+
+  #header .social {
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    padding: 0 5rem 0 0;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+
   #ebook {
-    padding: 5rem 0 0;
+    padding: 4rem 0 0;
     width: 100%;
     height: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
   }
 
   #ebook .text {
+    padding-right: 2rem;
+    padding-left: 0;
     width: 40%;
     height: 90%;
     order: 2;
   }
 
+  .title {
+    font: 800 2.25rem var(--main-font);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body p {
+    font: 300 1.5rem var(--main-font);
+  }
   .container {
     padding: 0;
     order: 1;
@@ -223,6 +259,7 @@ i {
     width: 40%;
     height: 40%;
   }
+
   #ebook .button {
     visibility: hidden;
   }
@@ -235,9 +272,41 @@ i {
     padding: 5rem;
   }
 
-  #rodape {
-    padding: 1.5rem 0;
+  #cadastro h1 {
+    font: 800 2rem var(--main-font);
+  }
 
-    height: 10%;
+  #cadastro label {
+    font: 300 3rem var(---main-font);
+  }
+
+  #consentimento label {
+    font: 300 0.875rem var(--main-font);
+  }
+
+  #rodape {
+    position: absolute;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  #rodape .logo {
+    font: 900 2rem var(--main-font);
+  }
+
+  #rodape .rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #rodape .social {
+    visibility: hidden;
+  }
+
+  #rodape p {
+    padding: 0 2rem;
+    font: 300 1.75rem var(--main-font);
   }
 }
