@@ -1,12 +1,14 @@
 # Landing Page - E-book
 <p> Decidi realizar este projeto para colocar em prática o que estudei em cursos de HTML e CSS.
- Ainda, considerando a parte de envio de dados, aproveitei para aprender sobre Back-end, que por enquanto esta no repositório Back-end Landing Page.
+ Ainda, considerando a parte de envio de dados, aproveitei para aprender sobre Back-end em NodeJS, que esta no repositório <a href="https://github.com/paolabasso/Back-end-NodeJS">paolabasso/Back-End-Node-JS</a>.
 
-## Linguagens
+## Stacks
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JS</li>
+    <li>NodeJS(express)</li>
+    <li>MongoDB</li>
  </ul>
 
 ## Projeto
