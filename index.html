@@ -73,36 +73,36 @@
             <h1>Preencha os dados e receba o e-book em seu e-mail</h1>
           </div>
 
-          <form>
+          <form onsubmit="enviarDados()">
             <fieldset>
               <div class="campos">
                 <label class="nome">Nome:</label>
                 <br />
-                <input type="text" />
+                <input type="text" id="name" />
               </div>
 
               <div class="campos">
                 <label class="email">E-mail:</label>
                 <br />
-                <input type="email" />
+                <input type="email" id="email"/>
               </div>
 
               <div class="campos">
                 <label class="celular">Celular:</label>
                 <br />
-                <input type="number" />
+                <input type="number" id="phone"/>
               </div>
             </fieldset>
 
             <div id="consentimento" class="baixar">
-              <input type="checkbox" />
+              <input type="checkbox" id="autorizacao"/>
               <label for="consentimento"
                 >Concordo em receber e-mails com novidades e ter os dados acima
                 tratados por ONG LEGAL.</label
               >
             </div>
 
-            <a class="button" href="#"> QUERO O E-BOOK</a>
+            <button class="button" type="submit"> QUERO O E-BOOK</button>
           </form>
         </div>
       </section>
@@ -128,5 +128,6 @@
         </div>
       </div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
